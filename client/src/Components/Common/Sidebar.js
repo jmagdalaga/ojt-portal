@@ -31,12 +31,12 @@ const Sidebar = () => {
 
       {/*todo: hide/unhide option depending on the clicked icon*/}
       <ul className="clicked-option">
-        <li className="active">Dashboard</li>{" "}
         {/*todo: dynamic setting of the "active" className. responsible for setting the current page.*/}
         <li>Training Sessions</li>
         <li>Progress</li>
         <li>Document Submissions</li>
         <li>Daily Logbook</li>
+        <li className="active">Submitted Logbook</li>{" "}
       </ul>
     </div>
   );

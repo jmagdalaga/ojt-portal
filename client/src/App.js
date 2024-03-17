@@ -4,6 +4,7 @@ import Header from "./Components/Common/Header";
 import Sidebar from "./Components/Common/Sidebar";
 import Footer from "./Components/Common/Footer";
 import Dashboard from "./Components/Dashboard/Dashboard";
+import Logbook from "./Components/Logbook/Logbook";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <Footer />
 
       <main>
-        <Dashboard />
+        <Logbook />
       </main>
     </div>
   );
